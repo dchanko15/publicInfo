@@ -9,7 +9,7 @@
 </template>
 
 <script>
-    import navBar from '../components/navbar1'
+    import navBar from '../components/navbar'
     import bg from '../components/background'
     import mixinMenu from '../components/mixinMenu'
     import index from '../components/index'

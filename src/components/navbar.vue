@@ -8,12 +8,15 @@
                     </svg>
                 </a>
                 <div class="logo">
-                    <span style="font-weight: bold"> შეფასებისა და გამოცდების ეროვნული ცენტრი</span>
+                    <div style="text-align: center">
+                        <span style="font-weight: bold">შეფასებისა და გამოცდების ეროვნული ცენტრი</span>
+                    </div>
+
                 </div>
 
                 <!--  <div class="mobile"></div>-->
                 <div class="menuItemContainer">
-                 <!--   <div v-for="menuItem in navmenu" :key="menuItem[0]">
+                    <div v-for="menuItem in navmenu" :key="menuItem[0]">
                         <router-link v-if="menuItem[0][0]!=='#'" :to="menuItem[0]">
                             <svg v-if="menuItem[2]==='svg'" width="24px" height="24px" fill="rgba(255,255,255,0.8)">
                                 <use :xlink:href="svgIcon(menuItem[3])"/>
@@ -33,7 +36,7 @@
                                style="font-size: 1.2em"></i>
                             <div style="display: inline-block; vertical-align: super">{{menuItem[1]}}</div>
                         </a>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,12 +96,12 @@
     .topnav {
         overflow: hidden;
         transition: 0.4s;
-        padding: 28px 32px;
+        padding-top: 12px;
         width: 100%;
         font-family: bpg_web_001_caps, sans-serif;
         font-size: 1.1em;
-        color: #149dcc;
-
+        color: #0e5a79;
+        background-color: rgba(240, 240, 240, 0.7);
     }
 
 
@@ -110,6 +113,7 @@
         justify-content: center;
         font-size: 2em;
         line-height: 1.1;
+
 
 
     }

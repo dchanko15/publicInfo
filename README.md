@@ -1,4 +1,4 @@
-# uee-f-admin
+# Public Info
 
 ## Project setup
 ```

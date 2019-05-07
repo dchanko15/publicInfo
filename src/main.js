@@ -17,7 +17,7 @@ import './assets/css/style.css'
 
 async function getUrl(url) {
     let link ;
-    if (process.env.NODE_ENV !== "production" && globalState.apiUrl==="/testData" ) {
+    if (globalState.apiUrl.indexOf("/testData")!==-1 ) {
 
         link = globalState.apiUrl + url + ".json";
     } else

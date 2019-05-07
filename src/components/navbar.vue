@@ -10,7 +10,7 @@
                 <div class="logo">
                     <img src="../assets/img/naecLogo.png">
                 </div>
-                <div style="font-size: 2em;  text-align: right ">   საჯარო ინფორმაცია</div>
+                <div class="title">საჯარო ინფორმაცია</div>
                 <!--  <div class="mobile"></div>-->
                 <div class="menuItemContainer">
                     <div v-for="menuItem in navmenu" :key="menuItem[0]">
@@ -120,8 +120,10 @@
         justify-content: center;
         font-size: 2em;
         line-height: 1.1;
+    }
 
-
+    .topnav .title {
+        font-size: 2em;  text-align: right
     }
 
     .topnav .logo img {
@@ -132,21 +134,7 @@
         border: none
     }
 
-    .topnav .companyName {
-        font-family: bpg_web_001_caps, sans-serif;
-        padding-left: 0.1em;
-        text-align: left;
-
-        font-size: 4em;
-
-
-        display: inline-block;
-        max-width: 290px;
-        top: 5px;
-    }
-
-
-    .topnav .menuItemContainer {
+   .topnav .menuItemContainer {
         display: flex;
         -clear: both;
         justify-content: flex-end;
@@ -193,26 +181,15 @@
     }
 
     .topnav.shrinked {
-        padding: 7px 0 7px;
+
         background-color: white;
-        -opacity: 0.95;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-        -height: 65px;
+
 
     }
 
-    .topnav.shrinked .logo {
-        padding-top: 7px;
-        height: 100%;
-    }
 
-    .topnav.shrinked .logo img {
-        height: 65px;
-    }
 
-    .topnav.shrinked .companyName {
-        -font-size: 2em;
-    }
+
 
     .topnav .menuIcon {
         display: none;
@@ -228,10 +205,10 @@
             font-size: 1.2em;
         }
 
-        .topnav .companyName {
+        .topnav .title {
 
             font-size: 1.1em;
-            max-width: 250px;
+
 
         }
 

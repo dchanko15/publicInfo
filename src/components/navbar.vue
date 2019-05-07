@@ -165,7 +165,6 @@
 
     .topnav a.logo {
         border: none;
-
     }
 
     .topnav a:hover {

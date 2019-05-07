@@ -99,8 +99,8 @@
 
                         </div>
 
-                        <hr>
-                        <div class="row">
+
+                        <div class="row margin-top">
                             <div class="col-xs">
                                 <ui-textbox
                                         enforce-maxlength
